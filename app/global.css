@@ -1,0 +1,31 @@
+/*Tema do css*/
+:root {
+    --primary: #ffcb05;
+    --text: #ffffff;
+    --bg: #3c5aa6;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    font-family: sans-serif;
+    color: var(--text);
+    background-color: var(--bg) ;
+}

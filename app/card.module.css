@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+}
+
+@media (min-width: 600px) {
+    .card{
+        max-width: 350px;
+    }
+}
+
+
+.cardHeader{
+    padding:  18px 33px;
+    background-color: var(--primary);
+    
+}
+
+.cardHeaderTitle {
+    font-size: 16px;
+}
+
+.cardBody{
+    padding: 24px 34px;
+}
+    
+.cardBody p{
+    font-size: 14px;
+}
