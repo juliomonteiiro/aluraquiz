@@ -1,14 +1,8 @@
 .card {
     border: 1px solid var(--primary);
+    background-color: var(--bg);
     border-radius: 4px;
 }
-
-@media (min-width: 600px) {
-    .card{
-        max-width: 350px;
-    }
-}
-
 
 .cardHeader{
     padding:  18px 33px;
@@ -22,6 +16,12 @@
 
 .cardBody{
     padding: 24px 34px;
+}
+
+.cardBody h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
     
 .cardBody p{
