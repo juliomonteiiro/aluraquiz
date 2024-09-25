@@ -1,0 +1,30 @@
+{
+    "questions": [
+        { 
+        "title": "Qual é o primeiro pokemon do Ash?",
+        "image": "",
+        "description": "Considere a saga de Kanto",
+        "alternatives": [
+            "Charmander",
+            "Pikachu",
+            "Squirtle",
+            "Bulbasaur"
+        ],
+
+        "answer": "1"
+    },
+      { 
+        "title": "Qual é o primeiro pokemon do Ash?",
+        "image": "",
+        "description": "Considere a saga de Kanto",
+        "alternatives": [
+            "Charmander",
+            "Pikachu",
+            "Squirtle",
+            "Bulbasaur"
+        ],
+
+        "answer": "1"
+    }
+    ]
+}

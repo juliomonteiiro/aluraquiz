@@ -1,32 +1,35 @@
-import cardStyles from "./card.module.css";
-import homeStyles from "./home.module.css";
+import Link from "next/link";
+import pageStyles from "./page.module.css";
+import { Footer } from "./components/footer";
 import logo from "./../public/images/logo.png";
-import jm from "./../public/images/jm.png";
+import { Card } from "./components/card";
 import "./global.css";
+
+
 
 export default function Page() {
     return (
-      <main className={homeStyles.homeScreen} style={{flex: 1}}>
+      <main className={pageStyles.screen} style={{
+        flex: 1
 
-      <img src={logo.src} alt="Logo" className={homeStyles.logo} />
-
-       <div className={cardStyles.card}>
-        <header className={cardStyles.cardHeader}>
-        <h1 className={cardStyles.cardHeaderTitle}>Teste suas habilidades</h1>
-        </header>
-        <section className={cardStyles.cardBody}>
-        <p>
-
+      }}>
+        <section className={pageStyles.container}>
+      <img src={logo.src} alt="Logo" className={pageStyles.logo} />
+        <Card
+        headerTitle="Teste suas habilidades!">
+        <p style={{marginBottom: "32px"}}>
+          Teste seus conhecimentos sobre Pokemon, e divirta-se com o JM Quiz
         </p>
         <p>
           Formulário / Botão
         </p>
-        </section>
-        <footer>
-        <img src={jm.src} alt="Logo" className={homeStyles.logo} />
-          <p>Criado por @juliomonteiiro</p>
-        </footer>
-        </div>
+        <Link href="/game">
+        Jogar
+        </Link>
+       </Card>
+        <Footer />   
+        </section>          
       </main>
+      
     )
   }

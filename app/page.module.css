@@ -1,0 +1,33 @@
+.screen{
+    background-size: cover;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 40px;
+    background-position: center;
+}
+
+.screen .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+@media (min-width: 600px){
+    .screen{
+        background-image    : url("./../public/images/bg.png");
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+}
+
+.container {
+
+}
+
+@media (min-width: 600px) {
+    .container{
+        max-width: 350px;
+    }
+}   
