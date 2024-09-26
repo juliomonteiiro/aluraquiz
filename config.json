@@ -1,8 +1,8 @@
 {
     "questions": [
         { 
-        "title": "Qual é o primeiro pokemon do Ash?",
-        "image": "",
+        "title": "Qual foi o primeiro pokemon do Ash?",
+        "image": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2022/10/legiao_VQ04eKZNbuxP.jpg.webp",
         "description": "Considere a saga de Kanto",
         "alternatives": [
             "Charmander",
@@ -13,18 +13,115 @@
 
         "answer": "1"
     },
-      { 
-        "title": "Qual é o primeiro pokemon do Ash?",
-        "image": "",
-        "description": "Considere a saga de Kanto",
-        "alternatives": [
-            "Charmander",
-            "Pikachu",
-            "Squirtle",
-            "Bulbasaur"
-        ],
 
+    { 
+        "title": "Qual é o tipo de Pokémon de Charizard?",
+        "image": "https://images6.alphacoders.com/135/1351898.png",
+        "description": "Considere a evolução do Pokémon Charmander.",
+        "alternatives": [
+            "Fogo",
+            "Fogo/Voador",
+            "Água",
+            "Elétrico"
+        ],
         "answer": "1"
-    }
-    ]
+    },
+    { 
+        "title": "Qual é o Pokémon conhecido como o Pokémon Lendário do Tempo?",
+        "image": "https://c4.wallpaperflare.com/wallpaper/353/82/480/257532-arceus-axew-bagon-wallpaper-preview.jpg",
+        "description": "Considerando a região de Sinnoh.",
+        "alternatives": [
+            "Dialga",
+            "Palkia",
+            "Giratina",
+            "Arceus"
+        ],
+        "answer": "0"
+    },
+    { 
+        "title": "Qual é o movimento mais poderoso que Mewtwo pode aprender?",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/517ac594-fece-47bf-9bde-6a246355254f/dc5ewlj-655eb31a-110b-4a1e-8e6d-01a70c295a9e.png/v1/fill/w_1024,h_576,q_80,strp/mewtwo_wallpaper__hd_1920x1080__by_flighterz_dc5ewlj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNTE3YWM1OTQtZmVjZS00N2JmLTliZGUtNmEyNDYzNTUyNTRmXC9kYzVld2xqLTY1NWViMzFhLTExMGItNGExZS04ZTZkLTAxYTcwYzI5NWE5ZS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.k_ajBwVBp-rZTcb_xh5uANauYWu6Sy-cEatS78daDHw",
+        "description": "Considere as habilidades e movimentos de Mewtwo.",
+        "alternatives": [
+            "Psíquico",
+            "Foco do Poder",
+            "Raio Solar",
+            "Luz da Lua"
+        ],
+        "answer": "1"
+    },
+    { 
+    "title": "Qual é o Pokémon que pode se transformar em outros Pokémon usando o movimento Metronome?",
+    "image": "https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/pokemon-chromebook-wallpaper.jpg",
+    "description": "Considere as características do Pokémon.",
+    "alternatives": [
+        "Ditto",
+        "Mimikyu",
+        "Zoroark",
+        "Castform"
+    ],
+    "answer": "0"
+},
+{ 
+    "title": "Qual é o Pokémon inicial de água da região de Johto?",
+    "image": "https://images7.alphacoders.com/662/662174.png",
+    "description": "Considere os Pokémon iniciais dessa região.",
+    "alternatives": [
+        "Cyndaquil",
+        "Totodile",
+        "Chikorita",
+        "Mudkip"
+    ],
+    "answer": "1"
+},
+{ 
+    "title": "Qual Pokémon é conhecido como o 'Pokémon Fogo' do início da região de Alola?",
+    "image": "https://wallpapers.com/images/hd/pokemon-sun-and-moon-1920-x-1312-bkshovpnczlertxz.jpg",
+    "description": "Considere os Pokémon iniciais dessa região.",
+    "alternatives": [
+        "Rowlet",
+        "Litten",
+        "Popplio",
+        "Torracat"
+    ],
+    "answer": "1"
+},
+{ 
+    "title": "Qual é o Pokémon que evolui para Gengar?",
+    "image": "https://images6.alphacoders.com/137/thumb-1920-1371014.png",
+    "description": "Considere a evolução de Haunter.",
+    "alternatives": [
+        "Gastly",
+        "Porygon",
+        "Misdreavus",
+        "Sableye"
+    ],
+    "answer": "0"
+},
+{ 
+    "title": "Qual é a forma especial que Greninja pode assumir?",
+    "image": "https://wallpapers.com/images/hd/greninja-with-water-splashes-ia7hyftld8y7gasy.jpg",
+    "description": "Considere a habilidade única de Greninja na série.",
+    "alternatives": [
+        "Mega Evolução",
+        "Ash-Greninja",
+        "Formação de Água",
+        "Forma de Sombra"
+    ],
+    "answer": "1"
+},
+{ 
+    "title": "Qual é o principal rival de Ash na série XYZ?",
+    "image": "https://wallpapercave.com/wp/wp12978263.jpg",
+    "description": "Considere o personagem que tem uma rivalidade forte com Ash.",
+    "alternatives": [
+        "Gary Oak",
+        "Paul",
+        "Gladion",
+        "Alain"
+    ],
+    "answer": "3"
+}
+]
+
 }

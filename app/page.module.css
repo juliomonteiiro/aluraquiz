@@ -1,9 +1,9 @@
-.screen{
-    background-size: cover;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 40px;
-    background-position: center;
+.screen {
+  background-size: cover;
+  background-position: center center;
+  padding-top: 40px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .screen .logo{
@@ -13,21 +13,20 @@
     margin-bottom: 24px;
 }
 
-@media (min-width: 600px){
-    .screen{
-        background-image    : url("./../public/images/bg.png");
-        padding-left: 10%;
-        padding-right: 10%;
-        
-    }
+@media (min-width: 600px) {
+  .screen {
+    background-image: url("/images/bg.png");
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
-.container {
+.container {}
 
-}
 
 @media (min-width: 600px) {
-    .container{
-        max-width: 350px;
-    }
-}   
+  .container {
+    max-width: 350px;
+  }
+}

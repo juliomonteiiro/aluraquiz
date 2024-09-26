@@ -1,21 +1,30 @@
-import styles from "./style.module.css"
+import styles from "./style.module.css";
 
-interface AlternativeProps{
+interface AlternativeProps {
     label: string;
     order: number;
-}
-
-export function Alternative(props: AlternativeProps){
+    selectedValue: string | null;
+    onChange: (value: string) => void;
+  }
+  
+  export function Alternative(props: AlternativeProps) {
+    const id = `alternative-${props.order}`;
+  
     return (
-        
-                <label className={styles.component}>
-                    <input type="radio" 
-                    id={`alternative-${props.order}`}
-                    name="alternative"
-                    defaultValue={props.order}
-                    />
-                      {props.label}
-                </label>
-           
+      <>
+        <input
+          className={styles.input}
+          type="radio"
+          id={id}
+          name="alternative"
+          value={props.order}
+          checked={props.selectedValue === String(props.order)}
+          onChange={() => props.onChange(String(props.order))}
+        />
+        <label htmlFor={id} className={styles.component}>
+          {props.label}
+        </label>
+      </>
     );
-}
+  }
+  

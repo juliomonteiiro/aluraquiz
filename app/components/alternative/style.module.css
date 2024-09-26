@@ -1,3 +1,21 @@
 .component {
     display: block;
-}
+    background-color: rgba(32, 42, 100, 0.74);
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: opacity .2s;
+    border-radius: 4px;
+  }
+  
+  .component:hover,
+  .component:focus {
+    opacity: .6;
+  }
+  
+  .input {
+    display: none;
+  }
+  .input:checked ~ .component {
+    background-color: var(--alternative);
+    opacity: 1;
+  } 

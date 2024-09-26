@@ -1,4 +1,5 @@
-import Link from "next/link";
+"use client";
+import { useRouter } from "next/navigation";
 import pageStyles from "./page.module.css";
 import { Footer } from "./components/footer";
 import logo from "./../public/images/logo.png";
@@ -8,6 +9,8 @@ import "./global.css";
 
 
 export default function Page() {
+  const router = useRouter();
+
     return (
       <main className={pageStyles.screen} style={{
         flex: 1
@@ -20,15 +23,28 @@ export default function Page() {
         <p style={{marginBottom: "32px"}}>
           Teste seus conhecimentos sobre Pokemon, e divirta-se com o JM Quiz
         </p>
-        <p>
-          Formulário / Botão
-        </p>
-        <Link href="/game">
-        Jogar
-        </Link>
-       </Card>
-        <Footer />   
-        </section>          
+        <form
+            onSubmit={(event) => {
+              event.preventDefault();
+
+              const name = "";
+              router.push(`/game?player=${name}`)
+            }}
+          >
+            <div style={{ marginBottom: "24px" }}>
+              <input
+                type="text"
+                placeholder="Diz aí seu nome pra jogar :)"
+                name="playerName"
+              />
+            </div>
+            <button>
+              Jogar
+            </button>
+          </form>
+        </Card>
+        <Footer />
+      </section>   
       </main>
       
     )
